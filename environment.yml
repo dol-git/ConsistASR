@@ -6,7 +6,7 @@ channels:
 
 dependencies:
   # --- Python & core libs ---
-  - python>=3.10
+  - python>=3.10,<3.13
   - pip
   - numpy
   - pandas
@@ -22,7 +22,6 @@ dependencies:
   # --- sequence utilities / clustering ---
   - seqkit=2.10.1
   - cd-hit=4.8.1
-  - trimal
 
   # --- Python libraries used by the pipelines ---
   - biopython=1.85

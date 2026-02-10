@@ -40,6 +40,8 @@ Runtime:
 - Python 3
 - [`Treemmer`](https://github.com/fmenardo/Treemmer) (e.g. `Treemmer_v0.3.py`)
 
+Treemmer depends on the deprecated cgi module and is incompatible with Python 3.13+. Please use Python <=3.12.
+
 The path to the Treemmer script is controlled by:
 
 - environment variable `TREEMMER_PY`, or  

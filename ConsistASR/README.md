@@ -111,6 +111,7 @@ Some external tools are **not** included in `environment.yml` and must be instal
   Used in `precluster_tools/filter_cluster_generic.sh` for tree-based reduction of large sequence sets.
 
   * Requires `ete3` (already included in the environment)
+  * Treemmer (precluster_tool) depends on the deprecated cgi module and is incompatible with Python 3.13+. Please use Python <=3.12.
   * Install Treemmer from its GitHub repository and ensure the main script
     (e.g. `Treemmer_v0.3.py`) is reachable via the path used in the script or your `$PATH`
 
